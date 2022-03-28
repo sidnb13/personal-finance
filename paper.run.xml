@@ -54,8 +54,8 @@
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>numeric.bbx</file>
-      <file>numeric.cbx</file>
+      <file>alphabetic.bbx</file>
+      <file>alphabetic.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -77,6 +77,9 @@
     </provides>
     <requires type="dynamic">
       <file>paper.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>./sources.bib</file>
     </requires>
   </external>
 </requests>
